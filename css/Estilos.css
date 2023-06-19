@@ -1,0 +1,69 @@
+/*************************** HOJA DE ESTILO PARA AGREGAR ELEMENTOS A LOS FORMULARIOS **********************/
+input:valid,
+textarea:valid {
+  box-shadow: 0 0 0.5px 1px green;
+}
+
+input:focus:valid {
+  box-shadow: none;
+}
+
+textarea:focus:valid {
+  box-shadow: none;
+}
+
+input:invalid,
+textarea:invalid {
+  box-shadow: 0 0 0.5px 1px red;
+}
+
+input:focus:invalid {
+  box-shadow: none;
+}
+
+textarea:focus:invalid {
+  box-shadow: none;
+}
+
+/*************************** HOJA DE ESTILO PARA AGREGAR ELEMENTOS A LOS FORMULARIOS **********************/
+a.cerrar{
+width: 100%;  
+}
+
+.apertura{
+  background-color: #FFFFFF;
+  margin-left: -5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.fapertura{
+  margin-left: -5px;
+}
+
+.msn1{
+  font-size: 18px;
+  height: 50px;
+
+}
+
+
+/************************** BOTON SUBIR ***************************/
+.ir-arriba {
+  position: fixed;
+  bottom: 4rem;
+  right: 1rem;
+  font-size: 3rem;
+  color: #12afaf;
+  text-decoration: none;
+  z-index: 99999;
+  line-height: 0;
+/*  display: none;*/
+  -webkit-transition: all .5s ease;
+          transition: all .5s ease; }
+
+.ir-arriba:hover,
+.ir-arriba:focus {
+  outline: 0;
+  text-decoration: none;
+  color: #fff; }
