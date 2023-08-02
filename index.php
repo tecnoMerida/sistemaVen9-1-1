@@ -9,7 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Libro Digital de Novedades 9-1-1 </title>
+  <title>Sistema de Emergencias Ven 9-1-1: </title>
   <!-- Propios -->
   <link href="css/estilo_imagenes.css" rel="stylesheet">
   <!-- Bootstrap -->
@@ -86,7 +86,9 @@
       <div class="animate form login_form">
         <section class="login_content">
           <div>
-            <h1><i><img src="images/SLDN_911.png" class="SLDN"></i> Libro Digital Novedades 911</h1>
+              <h1>
+                <i><img src="images/SLDN_911.png" class="SLDN"></i>Sistema de Emergencias Ven 9-1-1
+              </h1>
           </div>
 
           <form action="cookie/cookie.php" method="POST" data-parsley-validate>
@@ -98,7 +100,7 @@
               <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Contraseña" required="" pattern="[A-Za-z0-9&%$!*+@#]{6,16}" title="La contraseña, podrá contener letras mayúsculas, minúsculas, números y los caracteres & % $ ! * + @ #. Su tamaño: entre 8 y 16 caracteres." />
             </div>
             <div>
-              <button type="submit" class="btn btn-dark" value="ENTRAR">ENTRAR</button>
+              <button type="submit" class="btn btn-dark" value="ENTRAR">INGRESAR</button>
             </div>
 
             <div class="clearfix"></div>
